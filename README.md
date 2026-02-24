@@ -30,12 +30,12 @@ cd cc_paper_tool
 bash setup.sh
 
 # 3. 在项目目录下启动 Claude Code，输入：
-/analyze-paper https://arxiv.org/abs/2601.16163 cosmos_policy
+/project:analyze-paper https://arxiv.org/abs/2601.16163 cosmos_policy
 ```
 
 ## 工作流程
 
-`/analyze-paper` 会自动执行 5 个阶段：
+`/project:analyze-paper` 会自动执行 5 个阶段：
 
 1. **资料收集** — 下载 PDF，搜索并克隆开源代码
 2. **精炼版报告** — 全文结构化翻译 + 批注 + 代码分析
