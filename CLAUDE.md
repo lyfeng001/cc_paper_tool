@@ -15,7 +15,7 @@
 bash setup.sh
 
 # 2. 使用 Claude Code 的 slash command
-/analyze-paper https://arxiv.org/abs/2601.16163
+/analyze-paper <arxiv_url>
 ```
 
 ## 工作目录结构
