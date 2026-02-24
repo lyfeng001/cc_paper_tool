@@ -1,6 +1,6 @@
 # 论文深度分析工具链
 
-当用户输入 `/project:analyze-paper <arxiv_url>` 时，按 `.claude/commands/project:analyze-paper.md` 中定义的 5 个 Phase 执行，生成两种 PDF 报告。
+当用户输入 `/analyze-paper <arxiv_url>` 时，按 `.claude/commands/analyze-paper.md` 中定义的 5 个 Phase 执行，生成两种 PDF 报告。
 
 ## 工具文件
 
@@ -15,7 +15,7 @@
 bash setup.sh
 
 # 2. 使用 Claude Code 的 slash command
-/project:analyze-paper https://arxiv.org/abs/2601.16163
+/analyze-paper https://arxiv.org/abs/2601.16163
 ```
 
 ## 工作目录结构
@@ -35,7 +35,7 @@ bash setup.sh
 
 ## 执行流程
 
-详见 `.claude/commands/project:analyze-paper.md`，核心 5 个 Phase：
+详见 `.claude/commands/analyze-paper.md`，核心 5 个 Phase：
 1. 资料收集（下载 PDF + 搜索/克隆代码）
 2. 精炼版报告（结构化深度分析 + 代码解读）
 3. 逐行翻译版（逐页忠实翻译 + 行内批注）
