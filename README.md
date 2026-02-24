@@ -30,7 +30,7 @@ cd cc_paper_tool
 bash setup.sh
 
 # 3. 在项目目录下启动 Claude Code，输入：
-/project:analyze-paper https://arxiv.org/abs/2601.16163 cosmos_policy
+/project:analyze-paper https://arxiv.org/abs/2601.16163
 ```
 
 ## 工作流程

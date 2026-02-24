@@ -14,7 +14,7 @@
 
 从 `$ARGUMENTS` 中解析：
 - `paper_url`: arxiv 链接（如 https://arxiv.org/abs/2601.16163）
-- `paper_name`: 简短英文名（如 cosmos_policy，用于文件命名；若未提供则从 URL 推断）
+- `paper_name`: 从 arxiv URL 中自动推断（取 arxiv ID 中的数字部分，如 `2601.16163` → `2601_16163`；若论文标题可识别，优先用简短英文名如 `cosmos_policy`）
 
 工作目录为当前目录，所有产出放在当前目录下。
 
