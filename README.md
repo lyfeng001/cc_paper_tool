@@ -1,6 +1,20 @@
-# cc_paper_tool
+<div align="center">
 
-一个基于 Claude Code 的 arxiv 论文深度分析工具。输入论文链接，自动生成两种 PDF 报告：
+# 📄 cc_paper_tool
+
+**AI-Powered arxiv Paper Analyzer for Claude Code**
+
+[![Python 3](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://python.org)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Slash_Command-blueviolet?logo=anthropic&logoColor=white)](https://claude.ai)
+[![Playwright](https://img.shields.io/badge/Playwright-Chromium-green?logo=playwright&logoColor=white)](https://playwright.dev)
+[![KaTeX](https://img.shields.io/badge/KaTeX-Math_Rendering-orange)](https://katex.org)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](LICENSE)
+
+一个基于 Claude Code 的 arxiv 论文深度分析工具。输入论文链接，自动生成两种 PDF 报告。
+
+</div>
+
+---
 
 - **逐行翻译版** (`*_dual.pdf`) — 左页原文，右页逐句中文翻译 + 行内批注
 - **精炼版** (`*_summary.pdf`) — 结构化深度分析 + 代码解读
@@ -66,4 +80,4 @@ python3 generate_pdf.py . all                   # 全部
 
 ## License
 
-MIT
+本项目采用 [CC BY-NC 4.0](LICENSE) 许可证 — 允许自由使用和修改，但禁止商业用途。
